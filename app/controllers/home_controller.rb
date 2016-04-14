@@ -7,7 +7,8 @@ class HomeController < ApplicationController
   def write
     # params[:title] = whatever written when something
     # with a name "title" is being submitted
-    @title = params[:email]
+    @email = params[:email]
+    @title = params[:title]
     @content = params[:content]
   end
   
